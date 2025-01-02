@@ -5,11 +5,27 @@
   <title>LMS Connect 4 League</title>
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <meta name="description" content="" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
   <style>
-   
+   #Video {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  z-index: -1;
+}
+    body {
+      color: white;
+      text-shadow:1px 1px 10px #fff, 1px 1px 10px #ccc;
+    }
   </style>
 </head>
 <body>
+  <video autoplay muted loop id="Video">
+  <source src="Video.mp4" type="video/mp4">
+  </video>
   <h1>LMS Connect 4 League Standings</h1>
   <a href="index.html">Back</a>
   <h2>Rankings:</h2>
