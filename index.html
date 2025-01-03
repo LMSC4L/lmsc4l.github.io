@@ -37,9 +37,28 @@
   <h4>6th place: <span id="six">Loading...</span></h3>
   <h4>7th place: <span id="seven">Loading...</span></h3>
   <h4>8th place: <span id="eight">Loading...</span></h3>
+  
+  <script src="rankings.js"></script>
+
   <script>
+    var one = document.getElementById("one");
+    var two = document.getElementById("two");
+    var thr = document.getElementById("three");
+    var fou = document.getElementById("four");
+    var fiv = document.getElementById("five");
+    var six = document.getElementById("six");
+    var sev = document.getElementById("seven");
+    var eig = document.getElementById("eight");
+    var winarray = [p1wins, p2wins, p3wins, p4wins, p5wins, p6wins, p7wins, p8wins];
+
+    winarray.sort(function(a, b) {
+      return a - b;
+    });
+
+    
+    
     
   </script>
-  <script src="rankings.js"></script>
+  
 </body>
 </html>
