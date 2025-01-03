@@ -1,35 +1,24 @@
-// Rank Number 1
-// The Player Number For The Ranked Player (System Will Automatically Use Their Name, It's Hard Coded.)
-let rank1playernum = 6;
-let rank1wins = 14;
-let rank1loss = 6;
+// In p#wins and p#loss, # is the player number.
+let p1wins = 8;
+let p1loss = 12;
 
-// Rank Number 2
-// The Player Number For The Ranked Player (System Will Automatically Use Their Name, It's Hard Coded.)
-let rank2playernum = 7;
-let rank2wins = 13;
-let rank2loss = 7;
+let p2wins = 9;
+let p2loss = 11;
 
-// Rank Number 3
-// The Player Number For The Ranked Player (System Will Automatically Use Their Name, It's Hard Coded.)
-let rank3playernum = 3;
-let rank3wins = 12;
-let rank3loss = 8;
+let p3wins = 12;
+let p3loss = 8;
 
-// Rank Number 4
-// The Player Number For The Ranked Player (System Will Automatically Use Their Name, It's Hard Coded.)
-let rank4playernum = 4;
-let rank4wins = 11;
-let rank4loss = 9;
+let p4wins = 11;
+let p4loss = 9;
 
-// Rank Number 5
-// The Player Number For The Ranked Player (System Will Automatically Use Their Name, It's Hard Coded.)
-let rank5playernum = 7;
-let rank5wins = 10;
-let rank5loss = 10;
+let p5wins = 7;
+let p5loss = 13;
 
-// Rank Number 6
-// The Player Number For The Ranked Player (System Will Automatically Use Their Name, It's Hard Coded.)
-let rank6playernum = 2;
-let rank6wins = 9;
-let rank6loss = 11;
+let p6wins = 14;
+let p6loss = 6;
+
+let p7wins = 10;
+let p7loss = 10;
+
+let p8wins = 13;
+let p8loss = 7;
